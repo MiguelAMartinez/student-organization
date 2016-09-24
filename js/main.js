@@ -5,14 +5,12 @@ $('.nav-menu-item').click(function() {
   return false;
 });
 
-var executed = false;
+$('.nav-ul-submenu').each(function() {
+  console.log($(this).position().top);
+  $(this).css('top', ($(this).position().top - 23) + 'px');
+})	
 
-if (!executed) {
-	$('.nav-ul-submenu').each(function() {
-	  $(this).css('top', ($(this).position().top - 23) + 'px');
-	})	
-	executed = true;
-}
+
 
 
 
