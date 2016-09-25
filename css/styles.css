@@ -67,7 +67,7 @@ nav {
 	list-style-type: none;
 	box-shadow: 1px 0px 1px 0px #999;
 	position: fixed;
-	left: 290px;
+	left: 300px;
 	z-index: 1;
 	visibility: hidden;
 }
