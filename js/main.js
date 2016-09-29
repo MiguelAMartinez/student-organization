@@ -7,7 +7,7 @@ $('.nav-menu-item').click(function() {
 
 $(window).load(function(){
 	$('.nav-ul-submenu').each(function() {
-	  $(this).css('top', ($(this).position().top - 31) + 'px');
+		$(this).css('top', ($(this).position().top - 31) + 'px');
 	})
 });
 
