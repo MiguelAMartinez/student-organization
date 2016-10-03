@@ -12,7 +12,7 @@ body {
 	color: #333;
 }
 
-nav {
+.nav-main {
 	width: 300px;
 	height: 100%;
 	position: absolute;
@@ -20,50 +20,49 @@ nav {
 	box-shadow: 6px 0px 5px -5px #888888;
 }
 
-.nav-div-logo {
+.div-nav-logo {
 	display:flex;
 }
 
-.nav-img-a {
-	padding-top: 28px;
+.a-nav-logo {
 	width: 200px;
-	margin: auto;
+	margin: 28px auto 0;
 }
 
-.nav-img-logo {
+.img-nav-logo {
 	max-width: 100%;
 }
 
-.nav-ul-menu {
+.ul-nav-menu {
 	margin:  32px 0px 75px;
 	font-size: 17px;
 	list-style-type: none;
 	text-align: center;
 }
 
-.nav-menu-item {
+.li-nav-menu {
 	padding: 7px 0; 
 	cursor: pointer;
 }
 
-.menu-item-a {
+.a-li-menu {
 	color: inherit; 
 	text-decoration: inherit;
 	display: inline-block;
 	border-bottom: 2px solid transparent;
 }
 
-.nav-ul-menu li:hover > a {
+.ul-nav-menu li:hover > a {
 	/*color of logo is #ff8c00*/
 	color: orange; 
 	border-bottom: 2px solid orange;
 }
 
-.nav-ul-menu li:hover > ul {
+.ul-nav-menu li:hover > ul {
 	visibility: visible;
 }
 
-.nav-ul-submenu {
+.ul-nav-submenu {
 	background-color: white;
 	list-style-type: none;
 	box-shadow: 1px 0px 1px 0px #999;
@@ -73,12 +72,12 @@ nav {
 	visibility: hidden;
 }
 
-.nav-submenu-item {
+.li-nav-submenu {
 	width: 130px;
 	padding: 7px 5px; 
 }
 
-.submenu-item-a {
+.a-nav-submenu {
 	cursor: pointer;
 	color: inherit; 
 	text-decoration: none;
