@@ -12,6 +12,7 @@ body {
 	color: #333;
 }
 
+/*Side Nav Bar*/
 .nav-main {
 	width: 300px;
 	height: 100%;
@@ -35,30 +36,34 @@ body {
 
 .ul-nav-menu {
 	margin:  32px 0px 75px;
-	font-size: 17px;
+	font-size: 18px;
 	list-style-type: none;
 	text-align: center;
 }
 
 .li-nav-menu {
-	padding: 7px 0; 
-	cursor: pointer;
 }
 
 .a-li-menu {
 	color: inherit; 
 	text-decoration: inherit;
 	display: inline-block;
+	width: 300px;
+	padding: 7px 0;
+}
+
+.p-li-menu {
+	display: inline-block;
 	border-bottom: 2px solid transparent;
 }
 
-.ul-nav-menu li:hover > a {
+.li-nav-menu:hover .p-li-menu {
 	/*color of logo is #ff8c00*/
 	color: orange; 
 	border-bottom: 2px solid orange;
 }
 
-.ul-nav-menu li:hover > ul {
+.li-nav-menu:hover > .ul-nav-submenu {
 	visibility: visible;
 }
 
@@ -67,22 +72,34 @@ body {
 	list-style-type: none;
 	box-shadow: 1px 0px 1px 0px #999;
 	position: fixed;
+	transform: translateY(-40px);
 	left: 300px;
 	z-index: 1;
 	visibility: hidden;
 }
 
 .li-nav-submenu {
-	width: 130px;
-	padding: 7px 5px; 
 }
 
 .a-nav-submenu {
-	cursor: pointer;
 	color: inherit; 
-	text-decoration: none;
+	text-decoration: inherit;
+	display: inline-block;
+	width: 150px;
+	padding: 7px 5px; 
 }
 
+.p-li-submenu {
+	display: inline-block;
+	border-bottom: 2px solid transparent;	
+}
+
+.li-nav-submenu:hover .p-li-submenu {
+	color: orange; 
+	border-bottom: 2px solid orange;
+}
+
+/*Main Content*/
 main {
 	position: absolute;
 	left: 300px;
