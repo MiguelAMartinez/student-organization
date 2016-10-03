@@ -54,6 +54,7 @@ nav {
 }
 
 .nav-ul-menu li:hover > a {
+	/*color of logo is #ff8c00*/
 	color: orange; 
 	border-bottom: 2px solid orange;
 }
