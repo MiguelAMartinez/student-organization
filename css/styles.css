@@ -104,5 +104,13 @@ main {
 	position: absolute;
 	left: 300px;
 	text-align: center;
-	padding: 100px;
+	margin: 26px 120px;
+}
+
+.main-title {
+	font-size: 44px;
+}
+
+.p-main { 
+	font-size: 17px;
 }
