@@ -61,7 +61,7 @@ body {
 	/*color of logo is #ff8c00*/
 	color: orange; 
 	border-bottom: 2px solid orange;
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
 }
 
 .li-nav-menu:hover > .ul-nav-submenu {
@@ -98,7 +98,7 @@ body {
 .li-nav-submenu:hover .p-li-submenu {
 	color: orange; 
 	border-bottom: 2px solid orange;
-	transition: all 0.2s ease;
+	transition: all 0.3s ease;
 }
 
 /*Main Content*/
