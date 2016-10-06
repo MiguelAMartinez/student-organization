@@ -28,7 +28,7 @@ $('.div-btn').click(function() {
 	}
 })
 
-$('.a-li-menu').click(function(event){
+$('.ul-nav-submenu').siblings('.a-li-menu').click(function(event){
 	if ($(this).siblings('.ul-nav-submenu').is(':hidden') && $(window).width() <= 900) {
 		event.preventDefault(); 
 		$(this).siblings('.ul-nav-submenu').slideDown(200);
