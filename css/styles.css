@@ -122,9 +122,13 @@ body {
 /*Main Content*/
 main {
 	position: absolute;
+	max-width: 900px;
+	margin: auto;
+	padding: 0 20px;
 	left: 300px;
+	right: 0; 
 	text-align: center;
-	margin: 26px 120px;
+	overflow: scroll;
 }
 
 .main-title {
@@ -211,13 +215,35 @@ main {
 	}
 
 	main {
-		max-width: 1000px;
-		padding: 5px 40px;
-		margin: auto;
+		max-width: 800px;
+		padding: 0 20px;
 		top: 75px;
 		left: 0; 
 		right: 0; 
 		overflow: scroll;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.nav-main {
+		height: 60px;
+	}
+
+	.a-nav-logo {
+		width: 55px;
+	}
+
+	.div-btn {
+		margin: 17.5px 30px;
+	}
+
+	.div-ul-menu{
+		top: 60px;
+	}
+
+	main {
+		top: 60px;
+		padding: 0 10px;
 	}
 }
 
