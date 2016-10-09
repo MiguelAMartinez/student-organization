@@ -128,7 +128,6 @@ main {
 	left: 300px;
 	right: 0; 
 	text-align: center;
-	overflow: scroll;
 }
 
 .main-title {
@@ -198,7 +197,7 @@ main {
 		box-shadow: none;
 		position: relative;
 		transform: none;
-		left: 20px;
+		left: 0;
 		width: 100%;
 	}
 
@@ -210,7 +209,7 @@ main {
 	.a-li-submenu {
 		font-size: 14px;
 		width: 100%;
-		padding: 15px 38px;
+		padding: 15px 60px;
 		text-align: left;
 	}
 
@@ -220,7 +219,6 @@ main {
 		top: 75px;
 		left: 0; 
 		right: 0; 
-		overflow: scroll;
 	}
 }
 
