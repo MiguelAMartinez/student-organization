@@ -54,6 +54,7 @@ body {
 /*Menu*/
 .div-ul-menu {
 	display: block;
+	background-color: white;
 }
 
 .ul-nav-menu {
