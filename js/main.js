@@ -17,12 +17,26 @@ $(window).on('resize', function(event){
 		smallWindow = true;
 	} else if ($(window).width() > 900 && smallWindow === true) {
 		$('.a-li-menu-sub').removeClass('a-li-menu-sub');	
+		$('.div-a-sign').text('+');
 		$('.div-a-sign').hide();	
 		$('.div-ul-menu').show();
 		$('.ul-nav-submenu').hide();
 		smallWindow = false;
 	}
 });
+
+$('.ul-nav-submenu').parent().hover(
+	function() {
+		if (smallWindow === false) {
+			$(this).children('.ul-nav-submenu').slideDown(200)
+		}
+	}, 
+	function() {
+		if (smallWindow === false) {
+			$(this).children('.ul-nav-submenu').slideUp(200);
+		}
+	}
+);
 
 $('.div-btn').click(function() {
 	if ($('.div-ul-menu').is(':hidden')) {
