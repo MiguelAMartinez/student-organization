@@ -193,6 +193,10 @@ main {
 		text-align: left;
 	}
 
+	.a-li-menu-sub {
+		width: 80%;
+	}
+
 	.ul-nav-submenu {
 		box-shadow: none;
 		position: relative;
@@ -202,8 +206,13 @@ main {
 	}
 
 	.div-a-sign {
-		display: inline-block;
+		display: block;
+		width: 20%;
+		height: 100%;
+		background-color: white;
+		padding: 15px 0;
 		float: right;
+		cursor: pointer;
 	}
 
 	.a-li-submenu {
