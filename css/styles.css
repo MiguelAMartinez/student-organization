@@ -113,6 +113,10 @@ body {
 	border-bottom: 2px solid transparent;	
 }
 
+.div-a-sign {
+	display: none;
+}
+
 .li-nav-submenu:hover .p-li-submenu {
 	color: orange; 
 	border-bottom: 2px solid orange;
