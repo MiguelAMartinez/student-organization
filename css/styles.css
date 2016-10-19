@@ -16,8 +16,7 @@ body {
 .nav-main {
 	width: 300px;
 	height: 100%;
-	position: absolute;
-	overflow: auto;
+	position: fixed;
 	box-shadow: 6px 0px 5px -5px #888888;
 }
 
@@ -55,10 +54,10 @@ body {
 .div-ul-menu {
 	display: block;
 	background-color: white;
+	margin:  32px 0px 75px;
 }
 
 .ul-nav-menu {
-	margin:  32px 0px 75px;
 	font-size: 18px;
 	list-style-type: none;
 	text-align: center;
@@ -91,10 +90,9 @@ body {
 	background-color: white;
 	list-style-type: none;
 	box-shadow: 1px 0px 1px 0px #999;
-	position: fixed;
+	position: absolute;
 	transform: translateY(-40px);
 	left: 300px;
-	z-index: 1;
 	display: none;
 }
 
@@ -132,6 +130,7 @@ main {
 	right: 0; 
 	text-align: center;
 	overflow: scroll;
+	z-index: -1;
 }
 
 .main-header {
@@ -170,7 +169,6 @@ main {
 		overflow: visible;
 		box-shadow: none;
 		border-bottom: 1px solid #ccc;
-		z-index: 1;
 		background-color: white;
 	}
 
@@ -191,9 +189,9 @@ main {
 
 	.div-ul-menu{
 		position: absolute;	
+		margin: 0;
 		top: 75px;
 		width: 100%;
-		z-index: 1;
 		border-bottom: 1px solid #ccc;
 		display: none;
 	}
