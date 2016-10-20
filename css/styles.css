@@ -160,7 +160,7 @@ main {
 }
 
 .h2-main {
-	font-size: 26px;
+	font-size: 28px;
 	padding-bottom: 20px;
 }
 
@@ -171,11 +171,11 @@ main {
 }
 
 .h3-main {
-	font-size: 22px;
+	font-size: 24px;
 	padding-bottom: 40px;
 }
 
-.div-sec-main {
+.div-flex-sec {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -186,8 +186,17 @@ main {
 	padding: 20px;
 }
 
-.sec-img {
+.img-sec {
 	width: 110px;
+}
+
+.div-sec-quote {
+	width: 250px;
+	font-size: 22px;
+}
+
+.img-person {
+	width: 150px;
 }
 
 
@@ -293,6 +302,10 @@ main {
 
 	main {
 		top: 60px;
+	}
+
+	.div-sec-quote {
+		padding-bottom: 40px;
 	}
 }
 
