@@ -137,28 +137,51 @@ main {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/atx.jpg);
 	background-size: cover;
 	filter: grayscale(0.3);	
-	height: 250px;
+	height: 300px;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .main-title {
-	font-size: 44px;
+	font-size: 48px;
 	padding: 20px 15px;
 	color: white;
 	margin: auto;
 }
 
 .main-content {
-	max-width: 900px;
-	padding: 0 20px;
-	margin: 30px auto;
-}
-
-.p-main { 
 	font-size: 17px;
 }
 
+.section-main {
+	max-width: 850px;
+	padding: 50px 20px;
+	margin: auto;
+}
+
+.h2-main {
+	font-size: 26px;
+	padding-bottom: 20px;
+}
+
+.line-main {
+	width: 100%;               
+	background-color:#dcdcdc;
+	height: 2px;
+}
+
+.h3-main {
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+.div-sec-main {
+	width: 200px;
+}
+
+.sec-img {
+	width: 110px;
+}
 
 
 @media only screen and (max-width: 900px) {
@@ -242,11 +265,6 @@ main {
 		left: 0; 
 		right: 0; 
 	}
-
-	.main-content {
-		padding: 0 20px;
-		max-width: 800px;
-	}
 }
 
 @media only screen and (max-width: 470px) {
@@ -269,10 +287,5 @@ main {
 	main {
 		top: 60px;
 	}
-
-	.main-content {
-		padding: 0 10px;
-	}
-
 }
 
