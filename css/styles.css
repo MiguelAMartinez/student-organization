@@ -155,7 +155,7 @@ main {
 
 .section-main {
 	max-width: 850px;
-	padding: 50px 20px;
+	padding: 45px 20px;
 	margin: auto;
 }
 
@@ -172,11 +172,18 @@ main {
 
 .h3-main {
 	font-size: 22px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 .div-sec-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.div-sec-img {
 	width: 200px;
+	padding: 20px;
 }
 
 .sec-img {
