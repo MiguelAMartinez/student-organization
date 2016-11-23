@@ -129,7 +129,6 @@ main {
 	left: 300px;
 	right: 0; 
 	text-align: center;
-	overflow: scroll;
 	z-index: -1;
 }
 
